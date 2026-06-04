@@ -3,7 +3,7 @@
     name: "{{ frontend_image }}"
     source: build
     build:
-      path: "{{ app_path }}/client"
+      path: "{{ app_path }}/frontend"
 
 - name: Run frontend container
   docker_container:
