@@ -11,6 +11,13 @@
     rds_user: "admin"
     rds_password: "Cloud123"
     rds_port: "3306"
+    db_name: "booksapp"
+
+    app_port: "80"
+    node_env: "development"
+    
+    jwt_secret: "sdfghjkldfcgvhjnk"
+    jwt_expires_in: "7d"
 
   roles:
     - common
