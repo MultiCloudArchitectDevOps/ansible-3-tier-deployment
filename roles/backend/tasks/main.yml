@@ -17,7 +17,7 @@
       DB_PASSWORD: "{{ rds_password }}"
       DB_NAME: "{{ db_name }}"
     
-      PORT: "{{ app_port }}"
+      APP_PORT: "{{ app_port }}"
       NODE_ENV: "{{ node_env }}"
     
       JWT_SECRET: "{{ jwt_secret }}"
