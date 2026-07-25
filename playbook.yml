@@ -3,15 +3,15 @@
   become: yes
 
   vars:
-    repo_url: "https://github.com/CloudTechDevOps/2nd10WeeksofCloudOps-main.git"
+    repo_url: "https://github.com/MultiCloudArchitectDevOps/2nd10WeeksofCloudOps-main.git"
     app_path: "/root/veera/"
     frontend_image: "frontend-app:latest"
     backend_image: "backend-app:latest"
-    rds_host: "database-1.c4j22o8iitfv.us-east-1.rds.amazonaws.com"
+    rds_host: "database-1.cwjqmcqsydws.us-east-1.rds.amazonaws.com"
     rds_user: "admin"
     rds_password: "Cloud123"
     rds_port: "3306"
-    db_name: "booksapp"
+    db_name: "database-1"
 
     app_port: "80"
     node_env: "development"
