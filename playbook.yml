@@ -11,7 +11,7 @@
     rds_user: "admin"
     rds_password: "Cloud123"
     rds_port: "3306"
-    db_name: "database-1"
+    db_name: "booksapp"
 
     app_port: "80"
     node_env: "development"
